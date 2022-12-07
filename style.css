@@ -1,0 +1,146 @@
+body {
+  background-image: url(./image/paisaje.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body #img-perfil {
+  width: 350px;
+  border-radius: 100%;
+  padding: 35px;
+  border: solid 5px white;
+}
+
+.titulo {
+  color: white;
+  height: 200px;
+  text-align: center;
+}
+
+.titulo h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  position: relative;
+
+  background-color: #ed9062;
+  height: 550px;
+}
+
+.descripcion {
+  text-align: center;
+}
+.descripcion p {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  position: static;
+  left: 5px;
+  top: 280px;
+  color: white;
+  font-size: 22px;
+}
+
+#visita {
+  text-align: center;
+}
+
+a.sin {
+  text-decoration: none;
+}
+
+/* pagina 2 */
+
+.menu {
+  position: static;
+  list-style: none;
+  padding: 0;
+  background: #092327;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  left: 670px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover {
+  background: #ed9062;
+}
+
+.galeria-container {
+  background-color: #ed9062;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.galeria__item {
+  position: relative;
+  filter: brightness(70%);
+}
+
+.galeria__item:hover {
+  filter: brightness(100%);
+}
+.galeria__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boton {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 800px;
+  left: 680px;
+  border-radius: 5px;
+  border: #ed9062;
+  color: white;
+  background-color: rgb(6, 78, 54);
+  filter: brightness(70%);
+}
+
+.boton:hover {
+  filter: brightness(100%);
+}
+
+.galeria__titulo {
+  position: absolute;
+  bottom: 10px;
+  left: 90px;
+  color: white;
+}
+.contacto {
+  background-color: #ed9062;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: purple;
+}
+
+.box-contacto {
+  position: absolute;
+  left: 150px;
+  background: orange;
+  width: 600px;
+  height: 50px;
+  border-radius: 2px;
+}
